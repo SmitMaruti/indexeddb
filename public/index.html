@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <form id="form">
+            <div><label for="name">Name</label> <input id="name" /></div>
+            <div>
+                <label for="age">Age</label> <input id="age" type="number" />
+            </div>
+            <div>
+                <label for="rating">rating</label>
+                <input id="rating" type="number" />
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        <div>Filters</div>
+        <div><button id="btn-all">All</button></div>
+        <div>
+            <button id="btn-assigned">Age 1 - Assgined</button
+            ><button id="btn-closed">Age 2 - Closed</button>
+        </div>
+        <div>
+            <button id="btn-you">Age 1 - Rating 5 (You)</button
+            ><button id="btn-unassigned">Age 1 - Rading 3 (Unassinged)</button>
+        </div>
+        <div>
+            <button id="btn-cursor">cursor</button>
+        </div>
+        <div>
+            <h3>Results</h3>
+            <ul id="result"></ul>
+        </div>
+        <script src="/dist/index.js"></script>
+    </body>
+</html>
